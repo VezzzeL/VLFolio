@@ -7,8 +7,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
-  padding: 50px 10%;
+  width: 100%;
+  padding: 58px 10%;
   gap: 10px;
 }
 
@@ -32,6 +32,12 @@
   gap: 26px;
 }
 
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
 .link a {
   color: var(--color-text);
   text-decoration: none;
@@ -41,18 +47,18 @@
 }
 
 @media screen and (max-width: 830px) {
-    .container{
-        flex-direction: column;
-        gap: 23px;
-    }
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
 
-    .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .links{
-        align-items: center;
-    }
+  .links {
+    align-items: center;
+  }
 }

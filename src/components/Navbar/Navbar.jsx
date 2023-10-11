@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import menuItems from "../../data/menuItems.json";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,23 +23,17 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
+        {menuOpen &&
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#about">Contact</a>
-          </li>
-        </ul>
+          {menuItems.map((item, index) => (
+            <li key={index}>
+              <a href={item.link}>{item.text}</a>
+            </li>
+          ))}
+        </ul>}
       </div>
     </nav>
   );
