@@ -9,8 +9,10 @@
 
 .title {
   color: var(--color-text);
+  text-align: center;
   font-size: 35px;
   font-weight: 700;
+  padding-bottom: 25px;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }

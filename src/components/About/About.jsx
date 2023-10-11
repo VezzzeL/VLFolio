@@ -18,21 +18,21 @@ export const About = () => {
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
-              <p>add smth later</p>
+              <p>I create sleek, responsive interfaces using React and HTML/CSS for an engaging user experience</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
-              <p>add smth later</p>
+              <p>I build robust server-side systems with Java for seamless data management and application functionality.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
-              <p>add smth later</p>
+              <p>I design intuitive, visually appealing interfaces for exceptional user experiences, combining form and function seamlessly.</p>
             </div>
           </li>
         </ul>
