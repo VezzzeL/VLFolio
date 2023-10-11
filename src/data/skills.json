@@ -1,5 +1,17 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Spring",
+    "imageSrc": "skills/spring.png"
+  },
+  {
+    "title": "Hibernate",
+    "imageSrc": "skills/hibernate.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -18,6 +30,18 @@
   {
     "title": "GraphQL",
     "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Mysql",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "Postgres",
+    "imageSrc": "skills/postgres.png"
   },
   {
     "title": "MongoDB",
